@@ -6,7 +6,7 @@
         <!--abstract 为true 的时候 ，这个时候为抽象bean，本身是不能被实例化的，只能被继承-->
     <!--抽象bean：bean的abstract属性为true的bean，这样的bean不能被IOC容器实例化，只能用来被继承-->
         <bean id="address" class="main.com.atguigu.spring.autowire.Address"
-            p:city="BeiJing" p:street="WuDaoKou111" abstract="false"></bean>
+            p:city="BeiJing" p:street="WuDaoKou" abstract="false"></bean>
 
         <!--<bean id="address2" class="main.com.atguigu.spring.autowire.Address"
             p:city="BeiJing" p:street="DaZhongSi"></bean>-->
